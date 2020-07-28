@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
 export const Title = styled.h3`
   font-style: normal;
   font-weight: normal;
@@ -7,7 +12,7 @@ export const Title = styled.h3`
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
-  padding: 20px;
+  padding: .4em;
   background: red;
   line-height: 1;
   border-radius: 4px;
@@ -18,18 +23,15 @@ export const Title = styled.h3`
   }
 `;
 
-export const ExtraLink = styled.a`
+export const ExtraLink = styled.p`
+  font-family: 'Roboto', sans-serif;
   margin-left: 16px;
   text-decoration: none;
-  transition: opacity .3s;
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
+  margin-bottom: 0;
   @media (max-width: 800px) {
     display: block;
     margin-bottom: 16px;
-    margin-left: 0;
+    margin-left: 13px;
   }
 `;
 

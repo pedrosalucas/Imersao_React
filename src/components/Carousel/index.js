@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink, Wrapper } from './styles';
 import VideoCard from './components/VideoCard';
 
 function VideoCardGroup({
@@ -14,14 +14,16 @@ function VideoCardGroup({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
-            {categoryTitle}
-          </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
-            </ExtraLink>
-          }
+          <Wrapper>
+            <Title style={{ backgroundColor: categoryColor || 'red' }}>
+              {categoryTitle}
+            </Title>
+            {categoryExtraLink && 
+              <ExtraLink>
+                {categoryExtraLink.text}  
+              </ExtraLink>
+            }
+          </Wrapper>
         </>
       )}
       <VideoCardList>
