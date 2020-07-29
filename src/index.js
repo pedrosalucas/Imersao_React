@@ -4,7 +4,6 @@ import './index.css';
 import Home from './pages/Home';
 import VideoRegister from './pages/Register/Video/index.js'
 import CategoryRegister from './pages/Register/Category'
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(

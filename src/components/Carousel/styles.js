@@ -13,9 +13,8 @@ export const Title = styled.h3`
   margin-bottom: 16px;
   display: inline-block;
   padding: .4em;
-  background: red;
   line-height: 1;
-  border-radius: 4px;
+  border-bottom: 3px solid; 
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -52,6 +51,6 @@ export const VideoCardList = styled.ul`
 export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
-  margin-left: 5%;
+  margin: 0 2%;
   margin-bottom: 16px;
 `;

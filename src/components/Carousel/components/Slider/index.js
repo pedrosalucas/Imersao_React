@@ -35,6 +35,8 @@ export const SliderItem = styled.li`
     height: 197px;
     object-fit: cover;
   }
+  
+  &:focus { outline: none; }
 `;
 
 
@@ -43,10 +45,11 @@ const Slider = ({ children }) => (
     <SlickSlider {...{
       dots: false,
       infinite: false,
+      draggable: false,
       speed: 300,
-      centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
+      variableWidth: false,
+      adaptiveHeight: false,
+      slidesToShow: 5
     }}
     >
       {children}

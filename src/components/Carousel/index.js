@@ -15,7 +15,7 @@ function Carousel({
       {categoryTitle && (
         <>
           <Wrapper>
-            <Title style={{ backgroundColor: categoryColor || 'red' }}>
+            <Title style={{ borderColor: categoryColor || 'red' }}>
               {categoryTitle}
             </Title>
             {categoryExtraLink && 

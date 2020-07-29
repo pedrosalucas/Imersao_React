@@ -25,7 +25,7 @@ ContentAreaContainer.Item = styled.div`
 `;
 
 ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
@@ -46,7 +46,8 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
-  padding-right: 1em;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 5em;
   @media (max-width: 800px) {
     display: none;
   }
@@ -59,6 +60,7 @@ ContentAreaContainer.Title = styled.h2`
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
+  padding-right: 1em;
 
   @media (max-width: 800px) {
     font-size: 32px;
