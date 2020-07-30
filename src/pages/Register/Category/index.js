@@ -29,13 +29,15 @@ function CategoryRegister() {
 
     useEffect(() => {
         setTimeout(() => {
-            const URL_TOP = 'http://localhost:8080/categorias';
+            const URL_TOP = window.location.hostname.includes('localhost') 
+                ? 'http://localhost:8080/categorias' 
+                : 'https://meteflix.herokuapp.com/categorias';
             fetch(URL_TOP)
                 .then(async (resposta) => {
                     const respostaJSON = await resposta.json();
                     setCategories([ ...respostaJSON ]);
                 });
-        }, 4 * 1000);
+        }, 2 * 1000);
     }, []);
 
     return (
