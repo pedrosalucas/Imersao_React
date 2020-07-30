@@ -45,11 +45,21 @@ const Slider = ({ children }) => (
     <SlickSlider {...{
       dots: false,
       infinite: false,
-      draggable: false,
-      speed: 300,
-      variableWidth: false,
-      adaptiveHeight: false,
-      slidesToShow: 5
+      adaptiveHeight: true,
+      slidesToShow: 5,
+      responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            infinite: true,
+            centerMode: true,
+            swipeToSlide: true,
+            arrows: false,
+            variableWidth: true,
+            slidesToShow: 1
+          }
+        }
+      ]
     }}
     >
       {children}

@@ -7,7 +7,6 @@ import LogoGit from '../../assets/img/github.png';
 import { Link } from 'react-router-dom';
 import { Wrapper } from '../Carousel/styles';
 import './Footer.css';
-const SpaceText = {margin: '20px'};
 
 function Footer() {
   return (
@@ -26,7 +25,7 @@ function Footer() {
         </div>
       </div>
       <Wrapper>
-        <p style={SpaceText} >Desenvolvido durante a </p>
+        <p className="Thank">Desenvolvido durante a </p>
         {' '}
         <a href="https://www.alura.com.br/" target="blank">
           <img className="LogoFooter" src={LogoImer} alt="Logo Imersão React" />

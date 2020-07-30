@@ -27,4 +27,9 @@ export const VideoCardContainer = styled.a`
   &:not(:first-child) {
     margin-left: 20px;
   }
+
+  @media (max-width: 800px) {
+    width: 10em;
+    height: 5.6em;
+  }
 `;

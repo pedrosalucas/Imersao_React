@@ -8,13 +8,11 @@ export const FooterBase = styled.footer`
   flex-wrap: wrap;
   background: var(--black);
   border-top: 2px solid var(--primary);
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   color: var(--white);
   text-align: center;
   @media (max-width: 800px) {
     margin-bottom: 50px;
+    height: 15em;
   }
 `;
