@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CategoryRegister() {
     const initialsValues = {
@@ -25,6 +26,17 @@ function CategoryRegister() {
             event.target.value
         );
     }
+
+    useEffect(() => {
+        setTimeout(() => {
+            const URL_TOP = 'http://localhost:8080/categorias';
+            fetch(URL_TOP)
+                .then(async (resposta) => {
+                    const respostaJSON = await resposta.json();
+                    setCategories([ ...respostaJSON ]);
+                });
+        }, 4 * 1000);
+    }, []);
 
     return (
         <PageDefault>
@@ -62,14 +74,20 @@ function CategoryRegister() {
                     onChange={handleChange}
                 />
 
-                <button>
+                <Button>
                     Cadastrar
-                </button>
+                </Button>
             </form>
 
-            <ul>{categories.map((item, index) => {
+            {categories.length === 0 && (
+                <div>
+                    Loading...
+                </div>
+            )}
+
+            <ul>{categories.map((item) => {
                 return (
-                    <li key={`${item}${index}`}>
+                    <li key={`${item.name}`}>
                         {item.name}
                     </li>
                 );
