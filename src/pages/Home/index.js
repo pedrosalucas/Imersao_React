@@ -7,13 +7,13 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: "#151b21" }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Um catálogo recheado de conteúdos para aquela ocasião especial."}
+        videoDescription={"Tenha uma lista de todas a vídeos aulas que você tem interesse, formando um catálogo personalizado para seus estudos."}
       />
 
       <Carousel

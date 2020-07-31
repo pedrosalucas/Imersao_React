@@ -6,7 +6,7 @@ export const FooterBase = styled.footer`
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: var(--black);
+  background: var(--menuColor);
   border-top: 2px solid var(--primary);
   padding: 32px 16px;
   color: var(--white);

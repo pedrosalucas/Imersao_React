@@ -4,7 +4,8 @@
 }
 
 :root {
-  --primary: #FF3C59;
+  --primary: #1B9CFC;
+  --menuColor: #080a0c;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;

@@ -15,6 +15,22 @@ export const ContentAreaContainer = styled.section`
   }
 `;
 
+ContentAreaContainer.Card = styled.div`
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.28);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.28);
+  background-color: rgba(21,27,33,0.4);
+  border-radius: 15px;
+  width: 40%;
+  padding: 10px 0;
+  padding-left: 30px;
+  margin: 0 4em;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+`;
+
 ContentAreaContainer.Item = styled.div`
   width: 50%;
   display: inline-block;
@@ -58,8 +74,7 @@ ContentAreaContainer.Title = styled.h2`
   font-weight: 300;
   font-size: 40px;
   line-height: 1;
-  margin-top: 0;
-  margin-bottom: 32px;
+  margin: 32px 0;
   padding-right: 1em;
 
   @media (max-width: 800px) {

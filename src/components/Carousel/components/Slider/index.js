@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Container = styled.ul`
   padding: 0;
   margin: 0;
+  margin-top: 15px;
   .slick-prev,
   .slick-next {
     z-index: 50;
@@ -35,7 +36,9 @@ export const SliderItem = styled.li`
     height: 197px;
     object-fit: cover;
   }
-  
+  &:hover{ 
+    transform: scale(1.01);
+  }
   &:focus { outline: none; }
 `;
 

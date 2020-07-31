@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import Logo from '../../assets/img/logo_meteflix.png';
+import Logo from '../../assets/img/logo_studylist2.png';
 import LogoImer from '../../assets/img/logo_imer.svg';
 import LogoLin from '../../assets/img/linkedin.png';
 import LogoGit from '../../assets/img/github.png';
@@ -28,7 +28,7 @@ function Footer() {
         <p className="Thank">Desenvolvido durante a </p>
         {' '}
         <a href="https://www.alura.com.br/" target="blank">
-          <img className="LogoFooter" src={LogoImer} alt="Logo Imersão React" />
+          <img className="LogoImer" src={LogoImer} alt="Logo Imersão React" />
         </a>
       </Wrapper>
     </FooterBase>

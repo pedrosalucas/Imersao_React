@@ -5,7 +5,7 @@
 }
 
 .LogoFooter{
-    height: 2.6em;
+    max-height: 1.6em;
 }
 
 .SocialLogo {
@@ -24,4 +24,8 @@
     font-size: 11pt;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+.LogoImer{
+    height: 2.6em;
 }

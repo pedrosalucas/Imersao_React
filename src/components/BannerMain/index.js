@@ -21,15 +21,15 @@ export default function BannerMain({
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
       <ContentAreaContainer>
-        <ContentAreaContainer.Item>
+        <ContentAreaContainer.Card>
           <ContentAreaContainer.Title>
-            {videoTitle}
+            {'Separe os conteúdos em categorias e organize de uma vez por todas seus estudos.'}
           </ContentAreaContainer.Title>
 
           <ContentAreaContainer.Description>
             {videoDescription}
           </ContentAreaContainer.Description>
-        </ContentAreaContainer.Item>
+        </ContentAreaContainer.Card>
 
         <ContentAreaContainer.Item>
           <VideoIframeResponsive

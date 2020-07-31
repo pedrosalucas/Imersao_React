@@ -1,95 +1,103 @@
 {
   "categorias": [
     {
-      "titulo": "Trilha Sonora",
+      "titulo": "Ciências da natureza e suas tecnologias",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Deixando no Clima"
+        "text": "É legal, mas..."
       },
       "videos": [
         {
-          "titulo": "Inspirações para ter um Momento Caliente com El@",
-          "url": "https://www.youtube.com/watch?v=waU75jdUnYw"
+          "titulo": "A Lei ZERO da Termodinâmica",
+          "url": "https://www.youtube.com/watch?v=8fo8_m-qP9M"
         },
         {
-          "titulo": "Flamingos-Baco Exu do Blues",
-          "url": "https://www.youtube.com/watch?v=hwGlsEgABBw"
+          "titulo": "REFRAÇÃO - PARTE 01 - Física com Montalvão",
+          "url": "https://www.youtube.com/watch?v=qEktm4ji5ak"
         },
         {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
+          "titulo": "Seria possível parar um furacão com uma bomba atômica? | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=4p8mnKy7GxA"
         },
         {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
+          "titulo": "A transmutação humana de Fullmetal Alchemist | Nerdologia",
+          "url": "https://youtu.be/DYlScWkjE_g"
         },
         {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
+          "titulo": "Membrana Plasmática | Célula | Prof. Paulo Jubilut",
+          "url": "https://youtu.be/yaiEgmOboq0"
         },
         {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
+          "titulo": "MITOSE | Divisão Celular | Professor Jubilut",
+          "url": "https://youtu.be/zvr7O5tqNiY"
         },
         {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
-        },
-        {
-          "titulo": "Love Is A Bitch-Two Feet",
-          "url": "https://www.youtube.com/watch?v=_DjE4gbIVZk"
+          "titulo": "ENERGIA - Física com Montalvão",
+          "url": "https://youtu.be/hLYC5aWK1bw"
         }
       ]
     },
     {
-      "titulo": "Assistindo Debaixo do Edredon",
+      "titulo": "Linguagens, códigos e suas tecnologias",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Filmes Calientes"
+        "text": "Eh nois!!!"
       },
       "videos": [
         {
-          "titulo": "Newness Trailer",
-          "url": "https://www.youtube.com/watch?v=EtBhKTuPjEk"
+          "titulo": "Transitividade Verbal [Prof Noslen]",
+          "url": "https://youtu.be/y2haxLgR4BM"
         },
         {
-          "titulo": "Azul é a Cor Mais Quente",
-          "url": "https://www.youtube.com/watch?v=uKmWi_T3QWE"
+          "titulo": "Sintaxe do Verbo [Prof Noslen]",
+          "url": "https://youtu.be/uPoNVpFf4FQ"
         }
       ]
     },
     {
-      "titulo": "Para Maratonar de Conchinha",
+      "titulo": "Matemática e suas tecnologias",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Séries Apimentadas"
+        "text": "DMA te espera."
       },
       "videos": [
         {
-          "titulo": "The Client List",
-          "url": "https://www.youtube.com/watch?v=Kkrd8F_Ci5g"
+          "titulo": "Potências - Qual é o maior?",
+          "url": "https://youtu.be/SizUrDi-keo"
         },
         {
-          "titulo": "Gypsy",
-          "url": "https://www.youtube.com/watch?v=Bj_PNcx5vAc"
+          "titulo": "Potência de Ponto - Segmentos em uma circunferência",
+          "url": "https://youtu.be/KcBBhcq2800"
+        },
+        {
+          "titulo": "Conceitos Básicos - Matemática Financeira #1",
+          "url": "https://www.youtube.com/watch?v=vxKV2UZkKm8"
+        },
+        {
+          "titulo": "Razões Trigonométricas (seno, cosseno e tangente) - Trigonometria no Triângulo Retângulo",
+          "url": "https://youtu.be/4sTUs4ll3dI"
         }
       ]
     },
     {
-      "titulo": "Conquistando pela Barriga",
+      "titulo": "Ciências humanas e suas tecnologias",
       "cor": "orange",
       "link_extra": {
-        "text": "Para Surpreender na Cozinha"
+        "text": "A culpa é dos Portugueses."
       },
       "videos": [
         {
-          "titulo": "Espaguete à Carbonara",
-          "url": "https://www.youtube.com/watch?v=OAcE699vo6s"
+          "titulo": "500 Anos em 1 Hora / História do Brasil",
+          "url": "https://youtu.be/q7E4XrfGGnE"
         },
         {
-          "titulo": "Ratatouille",
-          "url": "https://www.youtube.com/watch?v=kYBGbYAp0K0"
+          "titulo": "Geografia pro Enem - O que é Espaço Geográfico? Lugar, Paisagem, Região e Território.",
+          "url": "https://youtu.be/uWa2WLOveaQ"
+        },
+        {
+          "titulo": "Enem 2019 | Revisão de Filosofia",
+          "url": "https://youtu.be/EQsRh7X9n0E"
         }
       ]
     }
